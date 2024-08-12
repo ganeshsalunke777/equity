@@ -13,7 +13,7 @@ if not os.path.isdir("/tmp/ta-lib"):
     # Download ta-lib to disk
     with open("/tmp/ta-lib-0.4.0-src.tar.gz", "wb") as file:
         response = requests.get(
-            "http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz"
+            "https://files.pythonhosted.org/packages/f7/0b/1666f0a185d4f08215f53cc088122a73c92421447b04028f0464fabe1ce6/pandas_ta-0.3.14b.tar.gz"
         )
         file.write(response.content)
     # get our current dir, to configure it back again. Just house keeping
